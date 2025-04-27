@@ -49,17 +49,17 @@ public class WechatConfig {
                 new BirthDay(2015,10,31,false,true,"周年快乐！！！")
         ));
 
-        // userList.add(getUser(
-        //         "这个人扫码后的微信号",
-        //         "微信消息模板ID",
-        //         "这个人的称呼",
-        //         "江苏省南京市玄武区",
-        //         "南京",
-        //         new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-        //         new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-        //         new BirthDay(2020,7,8,true,true),
-        //         new BirthDay(2020,7,8,true,false,"周年快乐！！！")
-        // ));
+        userList.add(getUser(
+                "oy7v87B8VcI196VHwYa5_IjUI0ls", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "P3N-Q-rD0oJxk1UiZvoiCPBqmkU-lxaU7sczeruOQ-k", //要给这个人发送的模板ID
+                "臭宝~", //咋称呼这个人
+                "上海市松江区", //这个人的详细地址
+                "上海", //这个人在的城市
+                new BirthDay(1998,5,23,true,false,"宝宝生日快乐！！"),
+                new BirthDay(1997,9,25,true,false,"生日快乐哦~~"),
+                new BirthDay(2026,10,31,false,false),
+                new BirthDay(2015,10,31,false,true,"周年快乐！！！")
+        ));
 
 
     }
