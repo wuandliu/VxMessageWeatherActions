@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wxad4e128b53a656ca";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "713979a3c5a7de9a2ced4ba8081994b0";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,28 +38,28 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "oy7v87JRk6xlPXThJHlZJwRFBZnI", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "JcAhPZokXQkgCfSP39mmXOh9bJh6WO-PH6x3uP5YQ1o", //要给这个人发送的模板ID
+                "wm", //咋称呼这个人
+                "上海市松江区", //这个人的详细地址
+                "上海", //这个人在的城市
+                new BirthDay(1998,6,17,true,false,"宝宝生日快乐！！"),
+                new BirthDay(1997,9,25,false,false,"生日快乐哦~~"),
+                new BirthDay(2015,10,31,true,true),
+                new BirthDay(2015,10,31,true,false,"周年快乐！！！")
         ));
 
-        userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
-        ));
+        // userList.add(getUser(
+        //         "这个人扫码后的微信号",
+        //         "微信消息模板ID",
+        //         "这个人的称呼",
+        //         "江苏省南京市玄武区",
+        //         "南京",
+        //         new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+        //         new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
+        //         new BirthDay(2020,7,8,true,true),
+        //         new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+        // ));
 
 
     }
